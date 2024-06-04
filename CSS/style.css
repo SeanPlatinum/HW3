@@ -1,0 +1,63 @@
+/*Sean Diaz - HW3 - Wenjin Zhou GUI PROGRAMMING 
+6/3/24
+sean_diaz@student.uml.edu*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+}
+
+#tableContainer {
+    overflow: auto;
+    max-height: 400px; /*So it doesnt take up the whole dang screen*/
+    border: 1px solid #000; /* Add border around the table container  */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures there are no double borders so it doesnt glitch out anymore like last time */
+    border: 1px solid #000; /* Add border around the table */
+}
+
+th, td {
+    border: 1px solid #000; /* Add black border for each cell */
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: black;
+    
+    color: white;
+    top: 0;
+}
+tr:nth-child(even) {
+    background-color: #f6f1f1;  /*stylish opposite */
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
+#notification{
+    color: red;
+}
